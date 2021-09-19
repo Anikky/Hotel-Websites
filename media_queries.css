@@ -1,0 +1,61 @@
+@media(max-width:500px){
+#Navbar{
+    padding: 3rem 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#Navbar h3{
+    font-size: 30px;
+    padding: 1rem 0;
+}
+.Nav-item ul{
+    display: flex;
+    flex-direction: column;
+    align-items: center ;
+}
+.current,
+ ul li a:hover{
+    background: none;
+    color:#fff;
+}
+#Navbar.Nav-item li a{
+    padding: 2rem 0;
+}
+ul li {
+    border-bottom:1px dotted #eee ;
+}
+ul li a{
+    font-size: 18px;
+}
+#showcase h1{
+    font-size: 2rem;
+}
+#showcase p{
+    padding: 0 1.3rem;
+    text-align: center;
+}
+.history-img{
+    display: none;
+}
+.history-text{
+    height: 500px;
+    width: 100%;
+}
+#services{
+    display: flex;
+    flex-direction: column;
+}
+.measure{
+    width: 100%;
+}
+@media(max-width: 768px;){
+    #showcase p{
+        text-align: center;
+        padding: 0 1.5rem;
+    }
+}
+.history-img, .history-text{
+    height: 500px;
+}
+}

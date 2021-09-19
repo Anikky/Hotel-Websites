@@ -1,0 +1,153 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+}
+#Navbar{
+    padding: 1rem 1.5rem;
+    background-color: #333333;
+    display: flex;
+    justify-content: space-around;
+  
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+ul{
+    list-style: none;
+    display: flex;
+    font-weight: bold;
+}
+ul li a{
+    text-decoration: none;
+    color: white;
+    font-size: 17px;
+    padding: 1.5rem;
+}
+h2{
+    color: white;
+    font: 22px;
+}
+.name, ul li a:hover,#hint:hover{
+    background:#444;
+    color: #f7c08a;
+    transition: all 1s ease-in-out;
+}
+.active{
+    background: #444;
+    color: #f7c08a;
+}
+#showcase{
+    background: url("images\ \(4\).jpeg ")no-repeat center center/cover;
+    display: flex;
+    flex-direction: column ;
+    height: 550px;
+    justify-content: center;
+    align-items: center;
+
+}
+h1{
+    text-transform: capitalize;
+    font-size: 3.5rem;
+    color: #fff;
+}
+.enjoy{
+    color: #f7c08a;}
+
+
+.stay{
+    text-decoration: none;
+    color: #ffffff;
+    background: #333333;
+    padding: 0.5rem;
+}
+.enjoy{
+    color: #dbad81;
+}
+#About{
+    padding: 1.5rem 0;
+    background: #f4f4f4;
+    display: flex;
+    justify-content: space-around;
+}
+.container{
+    display: flex;
+    max-width: 920px; 
+}
+.About-text{
+    width: 50%;
+    margin-right: 1.5rem;
+}
+.About-img{
+    width: 50%;
+    margin-left: 1.5rem;
+}
+
+.About-img img{
+    width: 95%;
+    height: 300px;
+    border-radius: 50%;
+}
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+.About-text h1{
+    color: #333;
+    text-transform: capitalize;
+    font-size: 38px;
+}
+.About-text p{
+    line-height: 2.0;
+    padding: 1rem 0;
+}
+.contain h1{
+    color: #fff;
+    font-size: 48px;
+    text-transform: capitalize;
+    padding-top:3rem ;
+
+}
+#testimonials{
+    background: url('/image/test-bg.jpg')no-repeat center center/cover;
+    height: 600px;
+}
+.contain{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 100%;
+    padding-bottom: 3.5rem;
+}
+.testimony{
+    max-width: 1100px;
+    display:flex;
+    background: #f7c08a;
+    padding: 1.5rem 1rem;
+    opacity: 0.9;
+    border-radius: 5px;
+}
+.testimony img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 0 1rem;
+}
+.textimony p{
+    padding: 1rem 0;
+    line-height: 1.6;
+    color: #444;
+}
+
+#footer{
+    text-align: center;
+    padding: 1rem;
+}
+#footer p{
+    color: #fff;
+    text-align: center;
+    text-transform: capitalize;
+}
+.bg-tertiary{
+    background: #444;
+}
